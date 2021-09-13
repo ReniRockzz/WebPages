@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <nav class="navbar">
+        <div class="navbar__container">
+          <a href="/" id="navbar_logo"> sunnyside</a>
+          <div class="navbar_toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar_menu">
+            <li class="navbar_item">
+              <a href="/" class="navbar_links">About</a>
+            </li>
+            <li class="navbar_item">
+              <a href="/tech.html" class="navbar_links">Service</a>
+            </li>
+            <li class="navbar_item">
+              <a href="/" class="navbar_links">Projects</a>
+            </li>
+            <li class="navbar_btn">
+              <a href="/" class="button">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header_text"><h1>WE ARE CREATIVES</h1></div>
+      <span class="arrow mt-1">&#8595;</span>
+    </div>
+
+    <div class="container-xxl">
+      <div class="row m-0" id="main_one">
+        <div class="col" id="content1">
+          <h2>
+            Transform your<br />
+            brand
+          </h2>
+          <p>
+            We are a full-service creative agency specializing in
+            helping brands grow fast. Engage your clients through
+            compelling visuals that do most of the marketing for you.
+          </p>
+          <a href="/">LEARN MORE </a>
+        </div>
+        <div class="col p-0">
+          <img src="images/desktop/image-transform.jpg" class="image-fluid" alt="" />
+        </div>
+      </div>
+      <div class="row m-0" id="content2_container">
+        <div class="col p-0">
+          <img src="images/desktop/image-stand-out.jpg" class="image-fluid p-0 m-0" alt="" />
+        </div>
+        <div class="col" id="content2">
+          <h2>
+            Stand out to the right<br />
+            audience
+          </h2>
+          <p>
+            Using a collaborative formula of designers, researchers,<br />
+            photographers, videographers, and copywriters, we’ll<br />
+            build and extend your brand in digital places.
+          </p>
+          <a href="/">LEARN MORE </a>
+        </div>
+      </div>
+
+      <div class="row m-0">
+        <div class="col" id="col_image1">
+          <h2>Graphic design</h2>
+          <p>
+            Great design makes you memorable. We deliver<br />
+            artwork that underscores your brand message<br />
+            and captures potential clients’ attention.
+          </p>
+        </div>
+        <div class="col" id="col_image2">
+          <h2>Photography</h2>
+          <p>
+            Increase your credibility by getting the most<br />
+            stunning, high-quality photos that improve your<br />
+            business image.
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Testiminial -->
+    <div class="testimonial">
+      <div class="row mt-5">
+        <h2>CLIENT TESTIMONIAL</h2>
+        </div>
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+        <div class="feature col d-flex justify-content-center flex-column align-items-center">
+            <img src="images/image-emily.jpg" class="rounded-circle" alt=" ">
+          <p>We put our trust in Sunnyside and they<br/> delivered, making sure our needs were met<br/> and deadlines were always hit.</p>
+          <div class="col ">
+            <a href="/">Emily R.</a>
+            <p class="testimonial_name">Marketing Director</p>  
+          </div>
+        </div>
+        <div class="feature col d-flex justify-content-center flex-column align-items-center">
+            <img src="images/image-thomas.jpg" class="rounded-circle" alt=" ">
+          <p>  Sunnyside’s enthusiasm coupled with their<br/> keen interest in our brand’s success made it<br/> a satisfying and enjoyable experience.</p>
+          <div class="col">
+            <a href="/">Thomas S.</a>
+            <p class="testimonial_name">Chief Operating Officer</p>  
+          </div>
+        </div>
+        <div class="feature col d-flex justify-content-center flex-column align-items-center">
+            <img src="images/image-jennie.jpg" class="rounded-circle" alt=" ">
+          <p>Incredible end result! Our sales increased<br/> over 400% when we worked with Sunnyside.<br/> Highly recommended!</p>
+          <div class="col">
+            <a href="/"> Jennie F.</a>
+            <p class="testimonial_name">Business Owner</p>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+      <div class="footer_images">
+        <div class="section col p-0">
+        <div class="col p-0">
+          <img class="img-fluid" src="images/desktop/image-gallery-milkbottles.jpg" alt="">
+        </div>
+        <div class="col p-0">
+          <img class="img-fluid" src="images/desktop/image-gallery-orange.jpg" alt="">
+        </div>
+        </div>
+        <div class="section col p-0">
+        <div class="col p-0">
+          <img class="img-fluid" src="images/desktop/image-gallery-cone.jpg" alt="">
+        </div>
+        <div class="col p-0">
+          <img class="img-fluid" src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+        </div>
+        </div>
+    </div>
+
+    <div class="footer">
+      <div class="row m-0">
+        <div class="col">
+        <h2>sunnyside</h2>
+        </div>
+      </div>
+      <div class="row mb-5 mr-0" id="footer_links">
+        <div class="col-1"><a href="/"> About</a></div>
+        <div class="col-1"><a href="/">Services</a></div>
+        <div class="col-1"><a href="/">Projects</a></div>
+      </div>
+      <div class="row m-0">
+        <div class="col-0 m-3"><img src="images/icon-facebook.svg" alt=""></div>
+        <div class="col-0 m-3"><img src="images/icon-instagram.svg" alt=""></div>
+        <div class="col-0 m-3"><img src="images/icon-twitter.svg" alt=""></div>
+        <div class="col-0 m-3"><img src="images/icon-pinterest.svg" alt=""></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
