@@ -1,0 +1,134 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@font-face {
+  font-family: font1;
+  src: url(https://fonts.google.com/specimen/Red+Hat+Display);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 30%;
+}
+img {
+  width: inherit;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+p {
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 600;
+}
+.row {
+  background-color: hsl(225, 100%, 98%);
+  padding: 10px;
+  width: 90%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+.img-fluid {
+  width: 100%;
+  height: 100%;
+}
+#col1 {
+  margin-right: 20%;
+}
+
+.card-button {
+  width: 70%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  color: hsl(225, 100%, 98%);
+  padding: 10px;
+  box-shadow: 0 8px 16px 0 hsl(224, 46%, 71%), 0 6px 20px 0 hsl(224, 46%, 71%);
+  font-weight: 700;
+}
+.annual {
+  color: hsl(223, 47%, 23%);
+  font-weight: bold;
+}
+p.annual {
+  margin-bottom: 5%;
+  width: 120%;
+}
+.cancel-link {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: bold;
+}
+.cancel-link:hover {
+  color: hsl(223, 47%, 23%);
+}
+button:hover {
+  background-color: hsl(229, 32%, 60%);
+}
+.col a {
+    
+  color: hsl(245, 75%, 52%);
+}
+.col a:hover {
+  color: hsl(229, 32%, 60%);
+  text-decoration: none;
+}
+.content {
+  margin-top: 5%;
+}
+
+@media (min-width:700px) and (max-width: 1134px) {
+  #card {
+    width: 40%;
+  }
+  
+  }
+  /* @media screen and (max-width: 748px) {
+    #card {
+      width: 70%;
+    }
+  } */
+  @media (min-width:300px) and (max-width: 699px) {
+    #card {
+      width: 80%;
+    }
+    
+      #col1 {
+        margin-right: 10%;
+      }
+  }
+  /* @media screen and (max-width: 428px) {
+    #card {
+      width: 90%;
+    }
+    .img-fluid {
+      max-height: auto;
+      width: 90%;
+    }
+    #col1 {
+      margin-right: 10%;
+    }
+  }
+  @media screen and (max-width: 330px) {
+    #card {
+      width: 100%;
+    }
+    .img-fluid {
+      max-height: auto;
+      width: 70%;
+    }
+    #col1 {
+      margin-right: 0%;
+    }
+  } 
+}*/
