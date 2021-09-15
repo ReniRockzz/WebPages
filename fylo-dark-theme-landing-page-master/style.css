@@ -1,0 +1,88 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+body {
+  background-color: hsl(218, 28%, 13%);
+  background-image: url(images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.nav-link{
+  color: white;
+}
+.nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+button {
+  background: rgb(51, 158, 204);
+  background: linear-gradient(
+    292deg,
+    rgba(51, 158, 204, 1) 64%,
+    rgba(101, 226, 217, 1) 89%,
+    rgba(101, 226, 217, 1) 97%
+  );
+}
+button:hover {
+  background: hsl(176, 68%, 64%);
+}
+.container .row .col a {
+  color: hsl(176, 68%, 64%);
+  text-decoration: underline;
+}
+.container .row .col a:hover {
+  color: white;
+}
+.footer .col a {
+  text-decoration: none;
+  color: white;
+}
+.footer .col a:hover {
+  font-weight: 700;
+}
+#footer_top {
+  background-color: hsl(217, 28%, 15%);
+}
+.card-group .card {
+  background-color: hsl(219, 30%, 18%);
+}
+.footer_top .card-text{
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+/* .image{
+    position: absolute;
+    left: 0px;
+    top: 1950px;
+    z-index: -1;
+  } */
+
+  @media (min-width: 250px) and (max-width: 457px) {
+    body{
+      font-size: 0.8rem;
+    }
+    h2{
+      font-size: 2rem;
+    }
+    h4{
+      font-size: 1.7rem;
+    }
+    .footer_top h2{
+      font-size: 1.2rem;
+    }
+    .footer_top .card-text{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .footer #footer_links{
+      display: flex;
+      flex-direction: column;
+    }
+  
+  }
